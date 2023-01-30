@@ -1,0 +1,35 @@
+{
+  "name": "challenge11",
+  "version": "1.0.0",
+  "description": "Tenemos la siguiente lista de productos (https://dummyjson.com/products?limit=100). Construir y hacer test sobre ese array de productos:",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage",
+    "prepare": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lroperod/202301-w3ch1-luis-ropero.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lroperod/202301-w3ch1-luis-ropero/issues"
+  },
+  "homepage": "https://github.com/lroperod/202301-w3ch1-luis-ropero#readme",
+  "devDependencies": {
+    "@babel/plugin-transform-modules-commonjs": "^7.20.11",
+    "husky": "^8.0.0",
+    "jest": "^29.4.1"
+  },
+  "babel": {
+    "env": {
+      "test": {
+        "plugins": [
+          "@babel/plugin-transform-modules-commonjs"
+        ]
+      }
+    }
+  }
+}
